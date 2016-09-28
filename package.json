@@ -1,0 +1,15 @@
+{
+  "name": "export-service-reviews",
+  "version": "1.0.0",
+  "description": "A script to get service reviews from a list of business-units and write them to a .csv file.",
+  "main": "runExportReviews.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakob Tolstrup Bech (jbe)",
+  "license": "ISC",
+  "devDependencies": {
+    "csv-write-stream": "^2.0.0",
+    "trustpilot": "^1.0.2"
+  }
+}
