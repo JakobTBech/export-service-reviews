@@ -17,7 +17,7 @@ class ServiceReviewIO {
       let reviews;
 
       for (let j in listsOfReviews) {
-        if (listsOfReviews[j][0].businessUnit.id === businessUnit.id) {
+        if (listsOfReviews[j][0] && listsOfReviews[j][0].businessUnit.id === businessUnit.id) {
           reviews = listsOfReviews[j];
           break;
         }
